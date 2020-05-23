@@ -1,0 +1,185 @@
+.jumbotron {
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+.jumbotron h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+#banner {
+    background-size: cover;
+    height: 150px;
+    background-position: 0 0;
+    background-color: #000000;
+    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E"); */
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 30px;
+}
+
+#banner {
+    background-size: cover;
+    background-position: right bottom;
+
+}
+
+
+
+#banner p {
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+
+h5.card-title {
+    line-height: 1.6rem;
+}
+
+
+img {
+    border-spacing: 15px;
+    padding-top: 20px;
+    float: left;
+    padding-right: 25px;
+
+
+}
+.mobile{
+  background-image: url(http://mockuphone.com/static/images/phones/iphone6/iphone6_silver_portrait.png);
+  background-repeat: no-repeat;
+  background-size: content;
+  display: inline-block;
+  width: 330px;
+  height: 640px;
+  background-position: center;
+  content: '';
+  position: relative;
+}
+.chat-w {
+    background-color: #fff;
+    display: inline-block;
+    height: 461px;
+    width: 262px;
+    position: absolute;
+    top: 80px;
+    border-radius: 4px;
+    left: 25px;
+  overflow: hidden;
+}
+
+body{
+ font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin:0;
+  background-color: #ccc;
+}
+ul{
+  margin: 0;padding: 0;
+}
+ul li{
+  list-style-type: none;
+  display: none;
+      margin: 10px;
+  clear: both;
+  overflow: hidden;
+  padding: 10px;
+  
+  
+}  
+.bubble {
+    position: relative;
+    width: 80%;
+padding: 8px;
+  float: left;
+display: inline-block;
+vertical-align:middle;
+
+  font-size: 13px;
+  color: #333;
+  text-align: left;
+
+   background-color: #e5e5ea;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(97, 97, 97, 0.5);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(97, 97, 97, 0.5);
+    box-shadow: 2px 2px 10px 0px rgba(97, 97, 97, 0.5);
+}
+  .bubble2 {
+    position: relative;
+    width: 80%;  
+    padding: 8px;
+    float: right;
+    text-align: left;
+    display: inline-block;
+vertical-align:middle;
+    font-size: 13px;
+    color: #fff;
+    background-color: #1289fe;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(97, 97, 97, 0.5);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(97, 97, 97, 0.5);
+    box-shadow: 2px 2px 10px 0px rgba(97, 97, 97, 0.5);
+}
+
+  .bubble:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0;
+    left: -10px;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #e5e5ea;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+  .bubble2:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    height: 0px;
+    right: -10px;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent #1289fe;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+.scroll{
+  width: 210px;
+  overflow: hidden;
+  height: 80px;
+  display: inline-block;
+  position: relative;
+}
+.car{
+  width: 700px;
+  display: inline-block;
+ position: absolute;
+  left: 0;
+  top: 0;
+}
+.car span{
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  width: 160px;
+  margin: 0 10px;
+}
